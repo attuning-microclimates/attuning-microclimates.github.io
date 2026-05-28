@@ -133,7 +133,7 @@ export const sections: Section[] = [
         paragraphs: [
           {
             zh: '光線緩慢變化，模擬一日之中、雲影之下、樹冠之間的光線漂移。光本身就是微氣候——它決定溫度，決定植物的方向，也決定我們身體的日夜作息。同時燈光也顯示當日空氣品質的顏色，在一天之中的某些時段，也提供植物生長所需的光線。',
-            en: 'Light shifts slowly, simulating the drift of illumination across a day, beneath the shadow of clouds, between the canopies of trees. Light is itself a microclimate — it determines temperature, the orientation of plants, and the diurnal rhythms of our own bodies. The light also carries the colour of the day's air quality, and at certain hours offers the plants the spectrum they need to grow. '
+            en: 'Light shifts slowly, simulating the drift of illumination across a day, beneath the shadow of clouds, between the canopies of trees. Light is itself a microclimate — it determines temperature, the orientation of plants, and the diurnal rhythms of our own bodies. The light also carries the colour of the day\'s air quality, and at certain hours offers the plants the spectrum they need to grow. '
           }
         ]
       },
