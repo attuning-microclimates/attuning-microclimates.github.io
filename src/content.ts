@@ -9,20 +9,16 @@ export type Section = {
 };
 
 export const titleBlock = {
-  title: {
-    zh: '感知微氣候',
-    en: 'Attuning to Microclimates'
-  },
-  subtitle: {
-    en: [
-      'Between the Breath and the Breeze',
-      'Tainan Living Art Center as an Urban Oasis'
-    ],
-    zh: [
-      '在呼吸與微風之間',
-      '生活美學館作為城市中的綠洲'
-    ]
-  }
+  zh: [
+    '感知微氣候',
+    '在呼吸與微風之間',
+    '生活美學館作為城市中的綠洲'
+  ],
+  en: [
+    'Attuning to Microclimates',
+    'Between the Breath and the Breeze',
+    'Tainan Living Art Center as an Urban Oasis'
+  ]
 };
 
 export const opening = {
