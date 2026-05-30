@@ -25,10 +25,8 @@ export default function Header({ lang, setLang }: HeaderProps) {
         </h1>
         <p>
           <span style={{ display: 'block' }}>{titleBlock.en[1]}</span>
-          <span style={{ display: 'block' }}>{titleBlock.zh[1]}</span>
-        </p>
-        <p>
           <span style={{ display: 'block' }}>{titleBlock.en[2]}</span>
+          <span style={{ display: 'block' }}>{titleBlock.zh[1]}</span>
           <span style={{ display: 'block' }}>{titleBlock.zh[2]}</span>
         </p>
       </div>
