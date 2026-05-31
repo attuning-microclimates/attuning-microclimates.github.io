@@ -263,3 +263,88 @@ button:hover {
   font-style: italic;
   font-weight: 500;
 }
+
+/* Press / 媒體報導 */
+.press-item {
+  margin: 0 0 2.5rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--color-accent);
+}
+
+.press-quote {
+  font-family: var(--font-zh-serif);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.press-gloss {
+  font-family: var(--font-zh-sans);
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.press-source {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.press-source a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.press-source a:hover,
+.press-source a:focus {
+  text-decoration: underline;
+}
+
+.press-date {
+  margin-left: 0.75rem;
+  opacity: 0.8;
+}
+
+.press-video {
+  margin-top: 2rem;
+}
+
+.press-video h3 {
+  font-size: 1rem;
+}
+
+.press-video ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.press-video a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.press-video a:hover,
+.press-video a:focus {
+  text-decoration: underline;
+}
+
+/* Footer credits */
+.footer-credits {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.footer-credits a {
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.footer-credits a:hover,
+.footer-credits a:focus {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}

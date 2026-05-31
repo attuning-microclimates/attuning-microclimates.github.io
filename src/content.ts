@@ -203,3 +203,80 @@ export const sections: Section[] = [
     ]
   }
 ];
+
+export type PressItem = {
+  outlet: { zh: string; en: string };
+  date: string;
+  url: string;
+  via?: { label: { zh: string; en: string }; url: string };
+  quote: string; // Chinese only — displayed regardless of language
+  gloss: string; // Chinese only — displayed regardless of language
+};
+
+export type LinkItem = {
+  label: { zh: string; en: string };
+  url: string;
+};
+
+export const pressHeading = {
+  zh: '媒體報導',
+  en: 'In the Press'
+};
+
+export const press: PressItem[] = [
+  {
+    outlet: { zh: '自由時報・生活', en: 'Liberty Times — Life' },
+    date: '2026.05.31',
+    url: 'https://news.ltn.com.tw/news/life/paper/1756967',
+    quote: '打造會呼吸的展場',
+    gloss: '以光影、植栽與空間設計，將展場化為一座「微氣候實驗室」。'
+  },
+  {
+    outlet: { zh: '自由藝文網', en: 'Liberty Times — Art' },
+    date: '2026.05.30',
+    url: 'https://art.ltn.com.tw/article/breakingnews/5454960',
+    via: {
+      label: { zh: 'Yahoo新聞轉載', en: 'via Yahoo News' },
+      url: 'https://tw.news.yahoo.com/%E8%8A%B1%E5%9C%92%E6%90%AC%E9%80%B2%E5%8F%B0%E5%8D%97%E7%BE%8E%E5%AD%B8%E9%A4%A8-%E6%84%9F%E7%9F%A5%E5%BE%AE%E6%B0%A3%E5%80%99-%E5%B1%95%E6%89%93%E9%80%A0%E6%9C%83%E5%91%BC%E5%90%B8%E7%9A%84%E5%B1%95%E5%A0%B4-074531417.html'
+    },
+    quote: '光線、空氣與綠意交織而成花園',
+    gloss: '形容走進展場，像走入一座會呼吸的花園。'
+  },
+  {
+    outlet: { zh: '悠遊台灣新聞網 UUTW', en: 'UUTW' },
+    date: '2026.05.30',
+    url: 'https://uutw.com.tw/article.php?n=44495',
+    quote: '讓民眾從自身感受出發，重新理解環境與人的關係',
+    gloss: '館長黃瓊瑩期待藉跨域合作，累積文化場館永續與減碳的示範經驗。'
+  },
+  {
+    outlet: { zh: '欣悦媒體', en: 'Xinyue Media' },
+    date: '2026.05.30',
+    url: 'https://leo03812.blogspot.com/2026/05/blog-post_30.html',
+    quote: '讓減碳淨零由自身做起',
+    gloss: '館員穿戴綠色植栽裝置，以「行動的空氣淨化」為發想。'
+  }
+];
+
+export const videoHeading = {
+  zh: '影音',
+  en: 'Video'
+};
+
+export const videoLinks: LinkItem[] = [
+  {
+    label: { zh: '展場短片（YouTube Shorts）', en: 'Gallery clip (YouTube Shorts)' },
+    url: 'https://youtube.com/shorts/WZZEOhFTVcc'
+  }
+];
+
+export const credits: LinkItem[] = [
+  {
+    label: { zh: '策展人 張懷文 Huai-Wen Chang', en: 'Curator — Huai-Wen Chang' },
+    url: 'https://hwca.de/'
+  },
+  {
+    label: { zh: '主辦｜國立臺南生活美學館', en: 'Organiser — National Tainan Living Art Center' },
+    url: 'https://www.tncsec.gov.tw/'
+  }
+];
