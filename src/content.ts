@@ -267,6 +267,10 @@ export const videoLinks: LinkItem[] = [
   {
     label: { zh: '展場短片（YouTube Shorts）', en: 'Gallery clip (YouTube Shorts)' },
     url: 'https://youtube.com/shorts/WZZEOhFTVcc'
+  },
+  {
+    label: { zh: '展覽影片（YouTube）', en: 'Exhibition video' },
+    url: 'https://youtu.be/KPf02bEfq-8'
   }
 ];
 
