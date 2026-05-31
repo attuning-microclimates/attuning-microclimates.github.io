@@ -271,6 +271,10 @@ export const videoLinks: LinkItem[] = [
   {
     label: { zh: '展覽影片（YouTube）', en: 'Exhibition video' },
     url: 'https://youtu.be/KPf02bEfq-8'
+  },
+  {
+    label: { zh: '微氣候工作坊 0503', en: 'Microclimate Workshop 0503' },
+    url: 'https://youtu.be/yvHKO5eOLXM'
   }
 ];
 
