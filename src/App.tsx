@@ -3,6 +3,7 @@ import { opening, sections, type Lang } from './content';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Section from './components/Section';
+import Press from './components/Press';
 import Footer from './components/Footer';
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         {sections.map(section => (
           <Section key={section.id} section={section} lang={lang} />
         ))}
+
+        <Press lang={lang} />
       </main>
 
       <Footer lang={lang} />
