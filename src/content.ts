@@ -225,6 +225,13 @@ export const pressHeading = {
 
 export const press: PressItem[] = [
   {
+    outlet: { zh: '中華民國文化部', en: 'Ministry of Culture' },
+    date: '2026.05.30',
+    url: 'https://www.moc.gov.tw/News_Content.aspx?n=105&s=256283',
+    quote: '協助文化產業接軌 2050 淨零排放目標',
+    gloss: '文化部「文化產業減碳科研輔導計畫」以本展為示範場域，推動文化場館接軌淨零轉型。'
+  },
+  {
     outlet: { zh: '自由時報・生活', en: 'Liberty Times — Life' },
     date: '2026.05.31',
     url: 'https://news.ltn.com.tw/news/life/paper/1756967',
