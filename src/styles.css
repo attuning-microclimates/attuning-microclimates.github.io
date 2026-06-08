@@ -348,3 +348,17 @@ button:hover {
   color: var(--color-accent);
   border-bottom-color: var(--color-accent);
 }
+
+/* Exhibition poster (small, below the section nav) */
+.poster {
+  margin: 0 auto 3rem;
+  max-width: 420px;
+}
+
+.poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-divider);
+  border-radius: 4px;
+}
