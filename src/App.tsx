@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Section from './components/Section';
 import Press from './components/Press';
 import Footer from './components/Footer';
+import Poster from './components/Poster';
 
 function App() {
   const [lang, setLang] = useState<Lang>(() => {
@@ -22,6 +23,8 @@ function App() {
       <Nav lang={lang} />
 
       <main id="main-content">
+        <Poster lang={lang} />
+
         <p className="opening">{opening[lang]}</p>
 
         {sections.map(section => (
